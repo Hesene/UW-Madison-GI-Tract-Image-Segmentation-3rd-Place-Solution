@@ -258,10 +258,6 @@ In this competition, larger models (EfficientNet-V2-L, EfficientNet-B7) consiste
 ### 4️⃣ 2.5D Input (5-Slice Stacking)
 Stacking 5 consecutive slices provides better spatial context than single slice or 3-slice approaches.
 
-<p align="center">
-  <img src="pics/slice_stacking.png" alt="5-Slice Stacking" width="70%">
-</p>
-
 ### 5️⃣ Heavy Data Augmentation
 CutMix and MixUp with probability 0.33 significantly improved both classification and segmentation performance.
 
@@ -384,3 +380,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repository if you find it helpful! ⭐**
 
 </div>
+
