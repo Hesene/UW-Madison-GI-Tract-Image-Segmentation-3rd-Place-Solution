@@ -242,16 +242,16 @@ sh run_seg_swa_finetune.sh
 
 | Fold | Input Size / Slice | Classification Model | Segmentation Model | LB (Private / Public) |
 |-----|--------------------|----------------------|--------------------|-----------------------|
-| 0 | 384 / 3 | `efb3-unet` | - | 0.869 / 0.875 |
-| 0 | 384 / 3 | `efb5-unet` | - | 0.869 / 0.876 |
-| 0 | 320 / 3 | `efb7-unet` | - | 0.866 / 0.878 |
-| 0 | 384 / 3 | `efb7-unet` | - | 0.870 / 0.877 |
-| 0 | 320 / 5 | `efv2-l-unet` | - | 0.871 / 0.878 |
-| 0 | 320 / 5 | `efv2-l-unet (SWA)` | - | 0.875 / 0.882 |
-| **5 Folds** | 320 / 3 | `efb7-unet` | - | 0.873 / 0.883 |
-| **5 Folds** | 320 / 3 | `efb7-unet` | `efb7-unet` | 0.877 / 0.886 |
-| **5 Folds** | 320 / 5 | `efv2-l-unet (SWA)` | - | 0.876 / 0.886 |
-| 🏆 **Final Ensemble** | 320 / 5 | `efv2-l-unet (SWA)` | `efv2-l-unet (SWA-384)` | **0.879 / 0.890** *(not submit)* |
+| 0 | 384 / 3 | efb3-unet | - | 0.869 / 0.875 |
+| 0 | 384 / 3 | efb5-unet | - | 0.869 / 0.876 |
+| 0 | 320 / 3 | efb7-unet | - | 0.866 / 0.878 |
+| 0 | 384 / 3 | efb7-unet | - | 0.870 / 0.877 |
+| 0 | 320 / 5 | efv2-l-unet | - | 0.871 / 0.878 |
+| 0 | 320 / 5 | efv2-l-unet (SWA) | - | 0.875 / 0.882 |
+| **5 Folds** | 320 / 3 | efb7-unet | - | 0.873 / 0.883 |
+| **5 Folds** | 320 / 3 | efb7-unet | efb7-unet | 0.877 / 0.886 |
+| **5 Folds** | 320 / 5 | efv2-l-unet (SWA) | - | 0.876 / 0.886 |
+| 🏆 **Final Ensemble** | 320 / 5 | efv2-l-unet (SWA) | efv2-l-unet (SWA-384) | **0.879 / 0.890** *(not submit)* |
 
 > **Note**: Even a single fold model achieves competitive results (Rank 26), demonstrating the effectiveness of our approach.
 
@@ -386,5 +386,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repository if you find it helpful! ⭐**
 
 </div>
+
 
 
