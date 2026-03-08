@@ -238,7 +238,7 @@ sh run_seg_swa_finetune.sh
 | + Single Fold Seg | 0.87723 | 0.88451 | 26 |
 | **Full Ensemble** | **0.88255** | **0.89162** | **3** |
 
-## Model Performance
+### Model Performance
 
 | Fold | Input Size / Slice | Classification Model | Segmentation Model | LB (Private / Public) |
 |-----|--------------------|----------------------|--------------------|-----------------------|
@@ -386,6 +386,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repository if you find it helpful! ⭐**
 
 </div>
+
 
 
 
